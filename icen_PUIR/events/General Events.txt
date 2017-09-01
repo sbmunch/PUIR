@@ -54,7 +54,9 @@ country_event = {
 		define_general = {
 			name = "John Cena"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+5% speed, +5% organisation.-2% attrition
+			personality = active_p
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -82,7 +84,9 @@ country_event = {
 		define_general = {
 			name = "Herbert Kitchener"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -105,12 +109,14 @@ country_event = {
 		days = 1
 	}
 	title = "A New General Arrives"
-	desc = "A French soldier, military theorist and the Allied Généralissime during the First World War"
+	desc = "A French soldier, military theorist and the Allied GÃ©nÃ©ralissime during the First World War"
 	immediate = {
 		define_general = {
 			name = "Ferdinand Foch"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -142,7 +148,9 @@ country_event = {
 		define_general = {
 			name = "Paul von Hindenburg"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -173,7 +181,9 @@ country_event = {
 		define_general = {
 			name = "Svetozar Boroevic"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -201,7 +211,9 @@ country_event = {
 		define_general = {
 			name = "Aleksandr Vassilievich Samsonov"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -218,7 +230,7 @@ country_event = {
 	trigger = {
 	ai = no
 	tag = TUR
-	NOT = {has_leader = "Mustafa Kemal Atatürk"}
+	NOT = {has_leader = "Mustafa Kemal AtatÃ¼rk"}
 	}
 	mean_time_to_happen = {
 		days = 1
@@ -227,9 +239,11 @@ country_event = {
 	desc = "A Turkish army officer, revolutionary, and the first President of Turkey"
 	immediate = {
 		define_general = {
-			name = "Mustafa Kemal Atatürk"
+			name = "Mustafa Kemal AtatÃ¼rk"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -257,7 +271,9 @@ country_event = {
 		define_general = {
 			name = "Theodore Roosevelt"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -285,7 +301,9 @@ country_event = {
 		define_general = {
 			name = "Jan van Swieten"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -316,7 +334,9 @@ country_event = {
 		define_general = {
 			name = "Johan August Sandels"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -348,7 +368,9 @@ country_event = {
 		define_general = {
 			name = "Luigi Cadorna"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -376,7 +398,9 @@ country_event = {
 		define_general = {
 			name = "Arsenio Linares y Pombo"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -404,7 +428,9 @@ country_event = {
 		define_general = {
 			name = "Oyama Iwao"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -432,7 +458,9 @@ country_event = {
 		define_general = {
 			name = "Nie Shicheng"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -460,7 +488,9 @@ country_event = {
 		define_general = {
 			name = "Mohammad Taqi-Khan Pessian"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -477,7 +507,7 @@ country_event = {
 	trigger = {
 	ai = no
 	tag = EGY
-	NOT = {has_leader = "Ahmed ‘Urabi"}
+	NOT = {has_leader = "Ahmed Â‘Urabi"}
 	}
 	mean_time_to_happen = {
 		days = 1
@@ -486,9 +516,11 @@ country_event = {
 	desc = "A colonel in the Egyptian army, he participated in a revolt against the Khedive in 1879 and tried to reform Egypt. He was forced into exile by the British in 1882."
 	immediate = {
 		define_general = {
-			name = "Ahmed ‘Urabi"
+			name = "Ahmed Â‘Urabi"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -516,7 +548,9 @@ country_event = {
 		define_general = {
 			name = "Vilhelm Oluf Madsen"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -547,7 +581,9 @@ country_event = {
 		define_general = {
 			name = "Panagiotis Danglis"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -575,7 +611,9 @@ country_event = {
 		define_general = {
 			name = "Constantin Prezan"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -592,7 +630,7 @@ country_event = {
 	trigger = {
 	ai = no
 	tag = BEL
-	NOT = {has_leader = "Gérard Mathieu Leman"}
+	NOT = {has_leader = "GÃ©rard Mathieu Leman"}
 	}
 	mean_time_to_happen = {
 		days = 1
@@ -601,9 +639,11 @@ country_event = {
 	desc = "A Belgian officer, who taught at and later headed the Military School of Brussels. General Leman commanded the defense of Liege in 1914, successfully delaying the German advance."
 	immediate = {
 		define_general = {
-			name = "Gérard Mathieu Leman"
+			name = "GÃ©rard Mathieu Leman"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -631,7 +671,9 @@ country_event = {
 		define_general = {
 			name = "Ulrich Wille"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -662,7 +704,9 @@ country_event = {
 		define_general = {
 			name = "Fernando Tamagnini de Abreu"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -690,7 +734,9 @@ country_event = {
 		define_general = {
 			name = "Radomir Putnik"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -718,7 +764,9 @@ country_event = {
 		define_general = {
 			name = "Manuel Deodoro da Fonseca"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -738,7 +786,7 @@ country_event = {
 	tag = CLM
 	tag = GCO
 	}
-	NOT = {has_leader = "Ramón González Valencia"}
+	NOT = {has_leader = "RamÃ³n GonzÃ¡lez Valencia"}
 	}
 	mean_time_to_happen = {
 		days = 1
@@ -747,9 +795,11 @@ country_event = {
 	desc = "A Colombian general and statesman who fought for the Conservative forces during the civil wars of 1876, 1885, and 1899. Later served variously as Minister of War, Vice-President, and President of Colombia between 1901 and 1910."
 	immediate = {
 		define_general = {
-			name = "Ramón González Valencia"
+			name = "RamÃ³n GonzÃ¡lez Valencia"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -766,7 +816,7 @@ country_event = {
 	trigger = {
 	ai = no
 	tag = MEX
-	NOT = {has_leader = "Porfirio Díaz"}
+	NOT = {has_leader = "Porfirio DÃ­az"}
 	}
 	mean_time_to_happen = {
 		days = 1
@@ -775,9 +825,11 @@ country_event = {
 	desc = "A Mexican general during the war against Emperor Maximillian and the French, ruled Mexico as President from 1876 until 1911."
 	immediate = {
 		define_general = {
-			name = "Porfirio Díaz"
+			name = "Porfirio DÃ­az"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
@@ -805,7 +857,9 @@ country_event = {
 		define_general = {
 			name = "Damrong Rajanubhab"
 			#+1 attack, +1 defence. +10% morale
-			personality = stalwart
+			#personality = stalwart
+			#+2% experience
+			personality = polite
 			#+3 attack, +3 defence
 			background = innovative_tactician
 		}
